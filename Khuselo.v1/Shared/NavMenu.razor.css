@@ -9,15 +9,31 @@
 
 .navbar-brand {
     font-size: 1.1rem;
+    
 }
-.nav2{
+
+.fade {
+    opacity:0;
+    transition-duration:2s;
+}
+    .fade:hover {
+           opacity:1;
+           transition-duration:2s;
+    }
+
+
+/*.navba
+    r-brand:hover {
+    opacity:1;
+}*/
+/*.nav2{
     visibility:hidden;
     transition-duration:2s;
 }
     .nav2:hover {
         visibility: visible;
         transition-duration: 2s;
-    }
+    }*/
 
 .oi {
     width: 2rem;
