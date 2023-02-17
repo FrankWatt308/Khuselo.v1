@@ -17,6 +17,10 @@
 @if(isOne){
 	<h1>Testing continious depoyment</h1>
 }
+@if (!isOne){
+		<h1>Welcome to my work</h1>
+
+	}
 
 
 
@@ -24,8 +28,8 @@
 
 <MudGrid Spacing="@spacing" Justify="Justify.Center">
     <MudItem>
-        <MudPaper Height="140px" Width="140px" />
-        <img src="FRA_2450-2.jpg" alt="image description"class="image">
+        <MudPaper Height="140px" Width="140px" Class="image2"/>
+        @*<img src="FRA_2450-2.jpg" alt="image description"class="image">*@
     </MudItem>
     <MudItem>
         <MudPaper Height="140px" Width="140px" />
@@ -44,7 +48,7 @@
     </MudItem>
 </MudGrid>
 
-<MudImage Fluid="true" Src="FRA_2450-2.jpg" Alt="Swedish Farm House" Class="rounded-lg" />
+@*<MudImage Fluid="true" Src="FRA_2450-2.jpg" Alt="Swedish Farm House" Class="rounded-lg" />*@
 
 <div>
 	<MudCard>

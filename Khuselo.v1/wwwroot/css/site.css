@@ -1,8 +1,9 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
-.image {
-    height:auto;
-    width:auto;
+.image2 {
+    background-image:url(FRA_2450-2.jpg);
+    height:10px;
+    width:10px;
 }
 
 
